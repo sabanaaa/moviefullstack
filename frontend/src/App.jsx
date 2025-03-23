@@ -43,7 +43,7 @@ function App() {
 				<Route path='/history' element={user ? <SearchHistoryPage /> : <Navigate to={"/login"} />} />
 				<Route path='/*' element={<NotFoundPage />} />
       </Routes>
-      <Footer/>
+     
 
       <Toaster/>
     
